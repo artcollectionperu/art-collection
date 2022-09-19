@@ -1,0 +1,145 @@
+.ejemplo{
+  background-color: grey;
+}
+
+.imagen1{
+display:flex;
+height: 200px;
+width: 180px;
+}
+
+
+
+
+.fondo{
+  background-color: #B7950B;
+}
+
+.fondo a{
+  color: #2A232A;
+}
+
+.fondo a:hover{
+  color: #FAF4F9;
+}
+
+
+.whatsapp {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 10px 2px;
+border-radius: 50%;
+}
+
+.fab:hover {
+opacity: 0.7;
+}
+
+.fa-whatsapp {
+background: #45bbff;
+color: white;
+}
+
+h1, h2, h3{
+  font-family: 'Lora', serif;
+}
+
+/* Página NOSOTROS */
+.ajuste{
+  margin-top: 100px;
+}
+.margen{
+  margin-top: 50px
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+.ajuste{
+    margin-top: 15px;
+    font-size: small;
+  }
+}
+
+.foto{
+  margin-top: 150px;
+}
+
+/* Termina Página NOSOTROS */
+.fondodos{
+  background: url("http://artcollection.com.pe/inicio/wp-content/uploads/2022/07/slider8-3-1024x559.jpg")fixed;
+  padding: 100px 0;
+}
+
+
+.titulo{
+  margin-top: 140px;
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #B7950B;
+  font-weight: bold;
+}
+
+.ga{
+  color: white;
+}
+
+
+.callout{
+  margin-top: 10px;
+  image-orientation: center;
+}
+
+.auto{
+  width: 230px;
+}
+
+.mesa{
+  width: 250px;
+  height: 170px;
+  }
+
+/* Hero */
+
+.hero-section {
+  background: url("http://artcollection.com.pe/inicio/wp-content/uploads/2022/07/slider8-3-1024x559.jpg")fixed 60% no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#footer{
+  font-size: small;
+  background-color: #B7950B;
+  color: white;
+  }
+  #footer a{
+    color: white;
+  }
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .hero-section {
+    height: 30vh;
+  }
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/* Termina Hero */
